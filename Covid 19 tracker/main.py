@@ -3,7 +3,7 @@ from datetime import datetime
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 
-from main import (
+from data import (
     get_live_data_country,
     get_latest_no,
     is_connected,
